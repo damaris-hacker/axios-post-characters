@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Axios - POST, PATCH &amp; PUT </title>
+  </head>
+ 
+  <body>
+    <main>
+      <h1> Axios AJAX - POST, PATCH &amp; PUT </h1>
+      <!-- <button id="post-wall-e"> Post WALL-E </button> -->
+      <form action="#" method="post" id="character-form">
+        <div>
+          <label for="the-name-input"> Name: </label>
+          <input type="text" name="name" class="the-name" id="the-name-input" />
+        </div>
+        <div>
+          <label for="the-occupation-input"> Occupation: </label>
+          <input type="text" name="occupation" class="the-occupation" id="the-occupation-input" />
+        </div>
+        <div>
+          <label for="the-weapon-input"> Weapon: </label>
+          <input type="text" name="weapon" class="the-weapon" id="the-weapon-input" />
+        </div>
+        <button>Save</button>
+      </form>
+
+
+      <ul id="characters-list"></ul>
+    </main>
+ 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
